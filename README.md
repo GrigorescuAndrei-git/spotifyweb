@@ -31,7 +31,7 @@ src/main/java/com/example/spotifyweb/
  - SpotifyService.java
 - AlbumDTO.java
 - controllers/
- - SpotifyService
+ - SpotifyController
 - configs/
  - RestTemplateConfig
 
