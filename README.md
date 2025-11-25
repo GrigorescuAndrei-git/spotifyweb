@@ -27,13 +27,13 @@ Aplicația folosește autentificarea prin **Client Credentials Flow** și return
 ## 📦 Structura proiectului
 
 src/main/java/com/example/spotifyweb/
-├── services/
-│ └── SpotifyService.java
-├── AlbumDTO.java
-└── controllers/
-│ └── SpotifyService
-├── configs/
-│ └── RestTemplateConfig
+- services/
+ - SpotifyService.java
+- AlbumDTO.java
+- controllers/
+ - SpotifyService
+- configs/
+ - RestTemplateConfig
 
 ## 🔑 Configurare – Cheile Spotify
 
@@ -42,10 +42,10 @@ Adaugă în `application.properties`:
 ```properties
 spotify.client-id=YOUR_SPOTIFY_CLIENT_ID
 spotify.client-secret=YOUR_SPOTIFY_CLIENT_SECRET
-Pentru a obține aceste chei:
 
-Intră pe https://developer.spotify.com/dashboard
 
-Creează o aplicație nouă
+- Pentru a obține aceste chei:
 
-Copiază Client ID și Client Secret
+* Intră pe https://developer.spotify.com/dashboard
+* Creează o aplicație nouă
+* Copiază Client ID și Client Secret
